@@ -58,7 +58,6 @@ public class Main {
     public class MyAmazingBot extends TelegramLongPollingBot {
         @Override
         public void onUpdateReceived(Update update) {
-
             if (containsComand(update, command1)) sendText(update, ansver1);
             if (containsComand(update, command2)) sendText(update, ansver2);
             if (containsComand(update, command3)) sendText(update, ansver3);
